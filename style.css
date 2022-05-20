@@ -267,8 +267,9 @@ nav{
     margin: 0 auto;
     padding-right: 250px;
     padding-left: 250px;
+    padding-bottom: 80px;
 }
-.sec3-container-head h2{
+.sec3-container h2{
     font-size: 56px;
     line-height: 64px;
     font-weight: 800;
@@ -300,4 +301,107 @@ nav{
     line-height: 64px;
     color: #08c;
 }
-
+.sec4-container{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-right: 250px;
+    padding-left: 250px;
+    padding-bottom: 80px;
+}
+.sec4-container h2{
+    padding-bottom: 16px;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 64px;
+    margin: 0;
+}
+.sec4-container-text1{
+    padding: 0 64px 30px;
+    color: #728a96;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.sec4-container-button{
+    margin: 0 auto;
+    color: #fff;
+    background-color: #08c;
+    padding: 12px 24px;
+    border-radius: 40px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+    width: 20%;
+}
+.sec4-container-table{
+    position: relative;
+    line-height: 32px;
+    border-radius: 40px;
+    padding: 40px 64px;
+    border: 1px solid #dde3e6;
+    margin: 48px 0 24px;
+    display: flex;
+    justify-content: space-around;
+}
+.sec4-container-table-col1{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-start;
+    width: 30%;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 32px;
+}
+.sec4-container-table-col1 .sec4-container-table-cols-logos{
+    color: #fff;
+}
+.sec4-container-table-col2{
+    background-color: #F7F9FB;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+    border-radius: 20px;
+}
+.sec4-container-table-cols{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.sec4-container-table-cols-logos-TON{
+    background-color: #F7F9FB;
+    
+}
+.sec4-container-table-cols-logos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 30px;
+    padding: 10px 64px
+}
+.sec4-container-table-cols-logos img{
+    width: 38px;
+}
+.sec4-container-text2{
+    text-align: center;
+    font-size: 16px;
+    line-height: 18px;
+    color: #728a96;
+    padding: 0 64px;
+}
+.sec4-container-text2 a{
+    border-bottom: 1px solid!important;
+    border-bottom-color: inherit;
+    color:#728a96;
+}
+.sec4-container-text2 a:hover{
+    color:#08c;
+}
