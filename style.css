@@ -561,4 +561,48 @@ nav{
  .sec5-container-table-text-right-footer a{
     color: #fff;
  }
- 
+ .sec6-container{
+    width: 100%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+.sec6-container-TonCommunity{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 140px 0;
+}
+.sec6-container-TonCommunity-left{
+    padding-right: 40px;
+}
+.sec6-container-TonCommunity-left h2{
+    margin: 0;
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 800;
+}
+.sec6-container-TonCommunity-left p{
+    color: #728a96;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.sec6-container-TonCommunity-left-links{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 40px -12px 0;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 800;
+}
+.sec6-container-TonCommunity-left-links a{
+    display: flex;
+    align-items: center;
+    color: #08c;
+    margin: 0 12px;
+}
+
+
+
