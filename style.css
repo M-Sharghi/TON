@@ -3,7 +3,6 @@
 }
 a{
     text-decoration: none;
-    /* color: #fff; */
 }
 body{
     margin: 0;
@@ -13,16 +12,17 @@ body{
 .header-link{
     background-image: linear-gradient(90deg,#9a6dfb -7.22%,#5dc7fc 109.17%);
     width: 100%;
-    height: 40px;
+    height: 30px;
     display: flex;
     justify-content:center;
     align-items: center;
     color: #fff;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: IBMPlexMono,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
 }
 .container{
-    background-color: #232328;
+    background-image: linear-gradient(0deg,#232328,#343437 101.47%);
     width: 100%;
     padding: 9px 180px 40px 180px;
 }
@@ -404,3 +404,161 @@ nav{
 .sec4-container-text2 a:hover{
     color:#08c;
 }
+.sec5-container{
+    background-image: linear-gradient(0deg,#232328,#343437 101.47%);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 72px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+.sec5-container-blockchain{
+    max-width: 840px;
+    margin: 0 auto;
+}
+.sec5-container-blockchain h2{
+    color: #fff;
+    font-size: 56px;
+    line-height: 64px;
+    margin: 0;
+}
+.sec5-container-blockchain-text{
+    margin: 16px auto 0;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: hsla(0,0%,100%,0.7);
+}
+.sec5-container-blockchain-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 44px -12px 0;
+}
+.sec5-container-blockchain-buttons .Read-Docs{
+    color: #fff;
+    background-color: #08c;
+    border-radius: 40px;
+    padding: 16px 32px;
+    margin: 0 12px;
+    display: flex;
+    align-items: center;
+}
+.sec5-container-blockchain-buttons .GitHub{
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    background-color: #ffffff0f;
+    margin:0 12px;
+    border-radius: 40px;
+    color: #fff;
+}
+.sec5-container-blockchain-buttons img{
+    margin-right: 8px;
+}
+.sec5-container-table{
+    width: 100%;
+    max-width: 1040px;
+    margin: 64px auto 0;
+    border-radius: 32px;
+    background: rgba(255,255,255,.03);
+}
+.sec5-container-table-line{
+    padding: 24px 40px;
+    background-color: #29292e;
+}
+.sec5-container-table-line-points{
+    display: flex;
+    align-items: flex-start;
+}
+.sec5-container-table-line-points-red{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #ed6a5e;
+}
+.sec5-container-table-line-points-yellow{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #f6be4f;
+    margin-left: 8px;
+}
+.sec5-container-table-line-points-green{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #62c554;
+    margin-left: 8px;
+}
+.sec5-container-table-text{
+    display: flex;
+    padding: 40px 0 38px;
+}
+.sec5-container-table-text-left{
+    color: #fff;
+    position: relative;
+    width: 30%;
+    text-align: left;
+}
+.sec5-container-table-text-left{
+    font-size: 18px;
+    line-height: 45px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    position: relative;
+    padding: 10px 16px 10px 40px;
+}
+.sec5-container-table-text-right{
+    color: #fff;
+    position: relative;
+    width: 70%;
+    /* text-align: left; */
+    padding: 0 40px 80px;
+}
+.sec5-container-table-text-right-text{
+    color: #fff;
+    text-align: left;
+}
+.sec5-container-table-text-right-text h4{
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 700;
+    margin: 0;
+}
+.sec5-container-table-text-right-text p{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    position: relative;
+    margin-top: 16px;
+}
+.sec5-container-table-text-right-text p a{
+   color: #07a0ec;
+}
+.sec5-container-table-text-right-text a{
+    color: #07a0ec;
+    font-size: 18px;
+    font-weight: 700;
+ }
+ .sec5-container-table-text-right-footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 64px;
+    padding: 0 46px 0 40px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+ }
+ .sec5-container-table-text-right-footer a{
+    color: #fff;
+ }
+ 
