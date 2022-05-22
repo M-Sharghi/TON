@@ -22,7 +22,7 @@ body{
     font-family: IBMPlexMono,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
 }
 .container{
-    background-image: linear-gradient(0deg,#232328,#343437 101.47%);
+    background-color: #232328;
     width: 100%;
     padding: 9px 180px 40px 180px;
 }
@@ -56,17 +56,12 @@ nav{
     padding-right: 8px;
 }
 .sec1{
+    width: 100%;
+    max-width: 1500px;
     display: flex;
     justify-content: space-between;
-    padding-top: 90px;
     padding: 128px 0;
     margin: 0 auto;
-}
-.sec1-left{
-    width: 70%;
-}
-.sec1-right{
-    width: 30%;
 }
 .button{
     display: flex;
@@ -96,22 +91,25 @@ nav{
     width: 335px;
 }
 .sec1-welcome{
-    height: 72px;
-    font-size: 64px;
+    font-size: 72px;
+    line-height: 88px;
     font-weight: 800;
-    color: #ffffff;
+    color: #fff;
 }
 .sec1-open-network{
-    font-size: 64px;
+    font-size: 72px;
+    line-height: 88px;
     font-weight: 800;
     padding-bottom: 12px;
     color: #06a1ef;
 }
 .sec1-text{
     width: 695px;
-    font-size: 21px;
-    padding-bottom: 24px;
-    color: #ffffffb3;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    color: hsla(0,0%,100%,0.7);
 }
 @media  screen and (max-width: 1100px){
     .sec1{
@@ -123,9 +121,11 @@ nav{
      display: flex;
      flex-direction: column;
      align-items: center;
+     padding: 100px 0;
  } 
  .sec2-container-static{
      width: 100%;
+     max-width: 1600px;
      padding-right: 20%;
      padding-left: 20%;
 
@@ -263,12 +263,14 @@ nav{
 }
 .sec3-container{
     width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
     padding-right: 250px;
     padding-left: 250px;
     padding-bottom: 80px;
 }
 .sec3-container h2{
+    margin: 0;
     font-size: 56px;
     line-height: 64px;
     font-weight: 800;
@@ -302,6 +304,7 @@ nav{
 }
 .sec4-container{
     width: 100%;
+    max-width: 1500px;
     margin: 0 auto;
     text-align: center;
     padding-right: 250px;
@@ -609,6 +612,47 @@ nav{
 .sec6-container-TonCommunity-right img{
     height: 444px;
 }
+.sec7-container{
+    padding: 0 100px;
+    border-radius: 64px;
+    background-image: linear-gradient(180deg,#f7f9fb,rgba(238,242,245,0.8) 116.16%);
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+}
+.sec7-container-appservices{
+    position: relative;
+    padding-top: 72px;
+    padding-bottom: 190px;
+}
+.sec7-container-appservices-text{
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 800;
+    text-align: center;
+    margin: 0 auto;
+}
+.sec7-container-appservices-text p{
+    color: #728a96;
+    margin-top: 16px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.sec7-container-appservices-text a{
+    border-radius: 40px;
+    padding: 16px 32px;
+    margin-top: 40px;
+    border: none;
+    color: #fff;
+    background-color: #08c;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 800;
+}
+
+
 
 
 
