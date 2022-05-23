@@ -652,6 +652,75 @@ nav{
     line-height: 32px;
     font-weight: 800;
 }
+.sec8-container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 140px 0 120px;
+}
+.sec8-container-text{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+.sec8-container-text h2{
+    font-size: 56px;
+    line-height: 64px;
+    font-weight: 800;
+    margin: 0;
+}
+.sec8-container-text p{
+    color: #728a96;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+.sec8-container-links{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 68px -20px 0;
+}
+.sec8-container-links a{
+    width: 33.3333333333%;
+    padding: 0 20px;
+}
+.sec8-container-links-col img{
+    border-radius: 24px;
+    width: 100%;
+}
+.sec8-container-links-col{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+}
+.sec8-container-links-text{
+    margin-top: 24px;
+    padding: 0 16px;
+}
+.sec8-container-links-text-sec1{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    color: #000;
+}
+.sec8-container-links-text-sec2{
+    color: #728a96;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+.sec8-container-links-text-sec3{
+    color: #08c;
+    margin-top: 12px;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 800;
+}
+
+
 
 
 
