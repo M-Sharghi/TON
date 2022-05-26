@@ -26,9 +26,6 @@ body{
     width: 100%;
     max-width: 1024px;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 nav{
     padding: 16px 0;
@@ -36,6 +33,7 @@ nav{
     top: 0;
     background-image: linear-gradient(0deg,#232328,#343437 101.47%);
     backdrop-filter: blur(4px);
+    z-index: 10;
 }
 .details{
     display: flex;
