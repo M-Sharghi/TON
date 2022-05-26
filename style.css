@@ -208,13 +208,13 @@ nav{
 }
 .Toncoin{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    max-width: 1200px;
     height: 400px;
-    margin: 64px 380px;
+    margin: 80px auto;
     background-color: rgba(236,240,243,0.8);
     border-radius: 64px;
-    padding: 0 128px;
 }
 .Toncoin-left-TON{
     font-size: 18px;
@@ -243,7 +243,6 @@ nav{
     font-weight: 400;
 }
 .Toncoin-left .Toncoin-left-links{
-    /* display: inline-block; */
     padding: 0 16px;
     margin: 10px -6px 0;
 }
