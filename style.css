@@ -13,19 +13,13 @@ body{
 }
 .header-link{
     background-image: linear-gradient(90deg,#9a6dfb -7.22%,#5dc7fc 109.17%);
-    width: 100%;
-    height: 30px;
+    height: 40px;
     display: flex;
     justify-content:center;
     align-items: center;
     color: #fff;
     text-decoration: none;
     font-size: 14px;
-}
-.container{
-    width: 100%;
-    max-width: 1024px;
-    margin: auto;
 }
 nav{
     padding: 16px 0;
@@ -34,6 +28,16 @@ nav{
     background-image: linear-gradient(0deg,#232328,#343437 101.47%);
     backdrop-filter: blur(4px);
     z-index: 10;
+}
+.container{
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .details{
     display: flex;
@@ -62,9 +66,7 @@ nav{
 }
 .sec1{
     background-color: #232328;
-    /* background-image: linear-gradient(0deg,#232328,#343437 101.47%); */
     display: flex;
-    justify-content: space-between;
 }
 .button{
     display: flex;
@@ -91,7 +93,7 @@ nav{
     padding-right: 10px;
 }
 .sec1-right video{
-    width: 400px;
+    width: 350px;
 }
 .sec1-welcome{
     font-size: 72px;
@@ -125,14 +127,7 @@ nav{
      flex-direction: column;
      align-items: center;
      padding: 100px 0;
- } 
- .sec2-container-static{
-     width: 100%;
-     max-width: 1600px;
-     padding-right: 20%;
-     padding-left: 20%;
-
- }  
+ }
  .sec2-part1{
     text-align: center;
     margin-top: 100px;
@@ -216,13 +211,10 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 400px;
-    margin: 64px 100px;
+    margin: 64px 380px;
     background-color: rgba(236,240,243,0.8);
     border-radius: 64px;
-}
-.Toncoin-left{
-    display: block;
-    margin-left:64px;
+    padding: 0 128px;
 }
 .Toncoin-left-TON{
     font-size: 18px;
@@ -251,7 +243,7 @@ nav{
     font-weight: 400;
 }
 .Toncoin-left .Toncoin-left-links{
-    display: inline-block;
+    /* display: inline-block; */
     padding: 0 16px;
     margin: 10px -6px 0;
 }
@@ -262,7 +254,6 @@ nav{
 }
 .Toncoin-right img{
     height: 300px;
-    margin-right: 64px;
 }
 .sec3-container{
     width: 100%;
@@ -422,7 +413,6 @@ nav{
 }
 .sec4-container-table-cols-logos-TON{
     background-color: #F7F9FB;
-    
 }
 .sec4-container-table-cols-logos{
     display: flex;
