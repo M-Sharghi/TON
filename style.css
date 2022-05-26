@@ -23,17 +23,23 @@ body{
     font-size: 14px;
 }
 .container{
-    background-color: #232328;
     width: 100%;
-    padding: 9px 180px 40px 180px;
-}
-nav{
+    max-width: 1024px;
+    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+nav{
+    padding: 16px 0;
     position: sticky;
     top: 0;
+    background-image: linear-gradient(0deg,#232328,#343437 101.47%);
     backdrop-filter: blur(4px);
+}
+.details{
+    display: flex;
+    padding: 128px 0;
 }
 .ton{
     align-items: center;
@@ -57,12 +63,9 @@ nav{
     padding-right: 8px;
 }
 .sec1{
-    width: 100%;
-    max-width: 1500px;
+    background-image: linear-gradient(0deg,#232328,#343437 101.47%);
     display: flex;
     justify-content: space-between;
-    padding: 128px 0;
-    margin: 0 auto;
 }
 .button{
     display: flex;
@@ -89,7 +92,7 @@ nav{
     padding-right: 10px;
 }
 .sec1-right video{
-    width: 335px;
+    width: 400px;
 }
 .sec1-welcome{
     font-size: 72px;
