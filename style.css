@@ -63,7 +63,8 @@ nav{
     padding-right: 8px;
 }
 .sec1{
-    background-image: linear-gradient(0deg,#232328,#343437 101.47%);
+    background-color: #232328;
+    /* background-image: linear-gradient(0deg,#232328,#343437 101.47%); */
     display: flex;
     justify-content: space-between;
 }
